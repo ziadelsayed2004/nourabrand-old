@@ -429,13 +429,28 @@ ul {
 }
 
 .personal .text hr {
-    max-width: 80%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    max-width: 100%;
+    margin: 1%;
     border-radius: 12px;
     border-style: solid;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     border-color: var(--main-color-alt);
+}
+
+@media (max-width: 767px) {
+
+    .personal .text hr {
+        max-width: 100%;
+        margin: 1%;
+        border-radius: 12px;
+        border-style: solid;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-color: var(--main-color-alt);
+    }
 }
 
 .skills-list {
