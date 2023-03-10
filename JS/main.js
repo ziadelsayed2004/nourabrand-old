@@ -28,6 +28,7 @@ for (var i = 1; i <= slidesCount; i++) {
 
 }
 
+
 document.getElementById('indicators').appendChild(paginationElement);
 
 var paginationCreatedUl = document.getElementById('pagination-ul');
@@ -45,6 +46,7 @@ for (var i = 0; i < paginationsBullets.length; i++) {
     }
 
 }
+
 
 theChecker();
 
@@ -127,3 +129,13 @@ function removeAllActive() {
     });
 
 }
+
+
+var counter = 1;
+setInterval(function () {
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if (counter > 5) {
+        counter = 1;
+    }
+}, 500);
