@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="Css/main.css">
     <link rel="stylesheet" href="Css/all.css">
     <link rel="stylesheet" href="Css/normalize.css">
+    <link rel="stylesheet" href="Css/objects.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&#038;display=swap" rel="stylesheet" />
@@ -81,22 +82,76 @@
 
     <div class="portofolio" id="portofolio" style="margin-top: 120px;">
         <h2 class="main-title">معرض العمل</h2>
-        <div class="container">
+        <div class="slide-container">
 
-            <div class="slider-container">
-                <div id="slide-number" class="slide-number"></div>
-                <img decoding="async" src="images/dress/O1/1st.jpg" alt="" />
-                <img decoding="async" src="images/dress/O1/2nd.jpg" alt="" />
-                <img decoding="async" src="images/dress/O1/3th.jpg" alt="" />
+            <div class="contain-slider">
+
+                <div class="slider">
+                    <div class="slides">
+
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+
+                        <div class="slide first">
+                            <img src="images/dress/O1/1st.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="images/dress/O1/2nd.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="images/dress/O1/3th.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                    </div>
+                </div>
+
             </div>
-            <div class="slider-controls">
-                <span id="prev" class="prev">السابق</span>
-                <span id="indicators" class="indicators"></span>
-                <span id="next" class="next">التالي</span>
+
+
+            <!-- O2 SLIDER -->
+
+            <div class="contain-slider">
+
+                <div class="slider">
+                    <div class="slides">
+
+                        <input type="radio" name="radio-btn" id="O2radio1">
+                        <input type="radio" name="radio-btn" id="O2radio2">
+                        <input type="radio" name="radio-btn" id="O2radio3">
+
+                        <div class="slide first">
+                            <img src="images/dress/O2/1st.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="images/dress/O2/2nd.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="images/dress/O2/3th.jpg" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="navigation-manual">
+                        <label for="O2radio1" class="manual-btn"></label>
+                        <label for="O2radio2" class="manual-btn"></label>
+                        <label for="O2radio3" class="manual-btn"></label>
+                    </div>
+                </div>
             </div>
-            <script src="JS/main.js"></script>
+
+
+            <script src=" JS/main.js"></script>
 
         </div>
+
+    </div>
+
     </div>
 
     <div class="fot">
