@@ -48,6 +48,66 @@
     }
 }
 
+/* NEW INDEX CARD SCROLL */
+
+.indexcontain-slider {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -550px;
+}
+
+@media (max-width: 767px) {
+
+    .indexcontain-slider {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-bottom: 0%;
+    }
+}
+
+.indexslider {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    margin-top: -100px;
+    height: 40%;
+}
+
+@media (max-width: 767px) {
+
+    .indexslider {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 100%;
+        margin-top: -300px;
+        padding-bottom: 12px;
+    }
+}
+
+.indexslides {
+    width: 500%;
+    height: 25%;
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    .indexslides {
+        height: 100%;
+    }
+}
+
+.indexslides input {
+    display: none;
+}
+
+/* NEW INDEX CARD SCROLL */
+
 .slides input {
     display: none;
 }
