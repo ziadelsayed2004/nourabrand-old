@@ -107,6 +107,45 @@
     display: none;
 }
 
+.indexnavigation-manual {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 40%;
+    margin-top: -3%;
+
+}
+
+@media (max-width: 767px) {
+
+    .indexnavigation-manual {
+        position: absolute;
+        margin-right: 19%;
+        display: flex;
+        justify-content: center;
+        margin-top: -10%;
+    }
+}
+
+.indexmanual-btn {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    width: 8px;
+}
+
+.indexmanual-btn:not(:last-child) {
+    margin-left: 40px;
+}
+
+.indexmanual-btn:hover {
+    background: #c43af3;
+    color: #B890B8;
+
+}
+
 /* NEW INDEX CARD SCROLL */
 
 .slides input {
