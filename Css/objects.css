@@ -208,7 +208,7 @@
 
     .slide img {
         width: 100%;
-        height: 325px;
+        height: -webkit-fill-available;
         object-fit: contain;
     }
 }
