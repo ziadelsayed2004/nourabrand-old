@@ -194,6 +194,21 @@
 
 }
 
+.slide .slidecard img {
+    object-fit: contain;
+    width: 100%;
+    height: 500px;
+}
+
+@media (max-width: 767px) {
+
+    .slide .slidecard img {
+        width: 100%;
+        height: 500px;
+        object-fit: contain;
+    }
+}
+
 /* NEW INDEX CARD SCROLL */
 
 .slides input {
