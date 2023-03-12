@@ -44,6 +44,56 @@
     color: white;
 }
 
+
+/* ORDER BUTTON */
+
+.orderbtn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: -80px;
+    margin-bottom: 180px;
+}
+
+@media (max-width: 767px) {
+    .orderbtn {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+}
+
+.orderbutton {
+    background-color: #B890B8;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 0.8%;
+    border-style: none;
+    width: 28%;
+    height: 8vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 700;
+}
+
+@media (max-width: 767px) {
+    .orderbutton {
+        width: 275px;
+        height: 50px;
+        font-size: 22px;
+        font-weight: 700;
+        padding: 5px;
+    }
+
+}
+
+.orderbutton a {
+    color: white;
+}
+
+
 /* Slider Container */
 
 .contain-slider {
