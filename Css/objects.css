@@ -6,6 +6,12 @@
     margin-bottom: 8vh;
 }
 
+@media (max-width: 767px) {
+    .catebtn {
+        margin-top: 15vh;
+    margin-bottom: 10vh;
+    }
+    }
 .categorybutton {
     background-color: #B890B8;
     text-decoration: none;
