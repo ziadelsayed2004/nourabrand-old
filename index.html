@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noura - Ednaa</title>
+    <title>Noura Brand</title>
     <link rel="icon" href="images/LogoCircle.png">
     <link rel="stylesheet" href="Css/main.css">
     <link rel="stylesheet" href="Css/all.css">
@@ -21,8 +21,9 @@
         <div class="container">
             <img id="logoheader" src="images/splashlogo.png" />
             <ul class="main-nav">
-                <li><a href="index.html">الصفحة الرئيسية</a></li>
-                <li><a href="dress.html">قسم الفساتين</a></li>
+                <li><a href="#personal">نبذة عن البراند</a></li>
+                <li><a href="#category">أقسام المنتجات</a></li>
+                <li><a href="#portofolio">معرض العمل</a></li>
                 <li><a href="#otherlinks">روابط التواصل الاجتماعي</a>
                     <div class="mega-menu">
                         <div class="image">
@@ -44,7 +45,7 @@
                         </ul>
                         <ul class="links">
                             <li>
-                                <a href="https://facebook.com/profile.php?id=10008739157777373/"><i
+                                <a href="https://facebook.com/profile.php?id=100087391577373/"><i
                                         class="fa-brands fa-facebook"></i> صفحة الفيسبوك </a>
                             </li>
                             <li>
@@ -66,287 +67,121 @@
     <div class="landing">
         <div class="container">
             <div class="text">
-                <h1>أهلا بكم في قسم الادنائات..</h1>
+                <h1>أهلا بكم في مكانكم</h1>
                 <p>للاطلاع على كل ما هو جديد من منتجات اسحب لأسفل، مرحبا بكم في كل وقت..</p>
                 <p>#صنع_بكل_حب</p>
             </div>
             <div class="image">
-                <img src="images/landEdnaa.png" alt="" />
+                <img src="images/landing-image.png" alt="" />
             </div>
         </div>
-        <a href="#portofolio" class="go-down">
+        <a href="#personal" class="go-down">
             <i class="fas fa-angle-double-down fa-2x"></i>
         </a>
     </div>
+    <div class="personal" id="personal">
+        <h2 class="main-title">نبذة عن البراند</h2>
+        <div class="container">
+            <div class="text">
+                <h3 class="pers-head">معاكم نورهان عثمان</h3>
+                <p>براند مختص بتصميم وتنفيذ كل ما هو جديد، ادنائات وفساتين وكل ما يخطر على بالكم..</p>
+                <hr>
+                <p>هتلاقوا عندنا كل ما يخص المحجبات</p>
+            </div>
+        </div>
+    </div>
 
+    <div class="indexcontain-slider">
+        <div class="indexslider">
+            <div class="indexslides">
 
-    <div class="portofolio" id="portofolio" style="margin-top: 120px;">
-        <h2 class="main-title">معرض العمل</h2>
-        <div class="slide-container">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
 
-            <div class="contain-slider">
-
-                <div class="slider">
-                    <div class="slides">
-
-                        <input type="radio" name="radio-btn" id="radio1">
-                        <input type="radio" name="radio-btn" id="radio2">
-                        <input type="radio" name="radio-btn" id="radio3">
-                        <input type="radio" name="radio-btn" id="radio4">
-
-
-                        <div class="slide first">
-                            <img src="images/ednaa/O1/1st.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O1/2nd.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O1/3th.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O1/4th.jpg" alt="">
-                        </div>
-                    </div>
-
-                    <div class="navigation-manual">
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                        <label for="radio4" class="manual-btn"></label>
-                    </div>
+                <div class="slide first">
+                    <img class="slidecard" src="images/1st_CardFace.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slidecard" src="images/2nd_CardFace.png" alt="">
                 </div>
 
             </div>
 
-            <div class="orderbtn">
-                <div class="orderbutton">
-                    <a
-                        href="https://wa.me/201142397025?text=Noura%20Brand%20Website%0AProducts%20Id%20%3A%20Ednaa%2FO1">للاستعلام
-                        والطلب</a>
-                </div>
+            <div class="indexnavigation-manual">
+                <label for="radio1" class="indexmanual-btn"></label>
+                <label for="radio2" class="indexmanual-btn"></label>
             </div>
 
-            <!-- O2 SLIDER -->
+            <script type="text/javascript">
 
-            <div class="contain-slider">
+                var counter = 1;
+                setInterval(function () {
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if (counter > 2) {
+                        counter = 1;
+                    }
+                }, 12000);
 
-                <div class="slider">
-                    <div class="slides">
-
-                        <input type="radio" name="radio-btn" id="O2radio1">
-                        <input type="radio" name="radio-btn" id="O2radio2">
-                        <input type="radio" name="radio-btn" id="O2radio3">
-
-                        <div class="slide first">
-                            <img src="images/ednaa/O2/1st.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O2/2nd.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O2/3th.jpg" alt="">
-                        </div>
-
-                    </div>
-
-                    <div class="navigation-manual">
-                        <label for="O2radio1" class="manual-btn"></label>
-                        <label for="O2radio2" class="manual-btn"></label>
-                        <label for="O2radio3" class="manual-btn"></label>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="orderbtn">
-                <div class="orderbutton">
-                    <a
-                        href="https://wa.me/201142397025?text=Noura%20Brand%20Website%0AProducts%20Id%20%3A%20Ednaa%2FO2">للاستعلام
-                        والطلب</a>
-                </div>
-            </div>
-
-
-            <!-- O3 SLIDER -->
-
-            <div class="contain-slider">
-
-                <div class="slider">
-                    <div class="slides">
-
-                        <input type="radio" name="radio-btn" id="O3radio1">
-                        <input type="radio" name="radio-btn" id="O3radio2">
-                        <input type="radio" name="radio-btn" id="O3radio3">
-                        <input type="radio" name="radio-btn" id="O3radio4">
-                        <input type="radio" name="radio-btn" id="O3radio5">
-
-                        <div class="slide first">
-                            <img src="images/ednaa/O3/1st.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O3/2nd.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O3/3th.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O3/4th.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O3/5th.jpg" alt="">
-                        </div>
-
-                    </div>
-
-                    <div class="navigation-manual">
-                        <label for="O3radio1" class="manual-btn"></label>
-                        <label for="O3radio2" class="manual-btn"></label>
-                        <label for="O3radio3" class="manual-btn"></label>
-                        <label for="O3radio4" class="manual-btn"></label>
-                        <label for="O3radio5" class="manual-btn"></label>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="orderbtn">
-                <div class="orderbutton">
-                    <a
-                        href="https://wa.me/201142397025?text=Noura%20Brand%20Website%0AProducts%20Id%20%3A%20Ednaa%2FO3">للاستعلام
-                        والطلب</a>
-                </div>
-            </div>
-
-            <!-- O4 SLIDER -->
-
-            <div class="contain-slider">
-
-                <div class="slider">
-                    <div class="slides">
-
-                        <input type="radio" name="radio-btn" id="O4radio1">
-                        <input type="radio" name="radio-btn" id="O4radio2">
-                        <input type="radio" name="radio-btn" id="O4radio3">
-                        <input type="radio" name="radio-btn" id="O4radio4">
-
-                        <div class="slide first">
-                            <img src="images/ednaa/O4/1st.webp" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O4/2nd.webp" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O4/3th.webp" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O4/4th.webp" alt="">
-                        </div>
-
-                    </div>
-
-                    <div class="navigation-manual">
-                        <label for="O4radio1" class="manual-btn"></label>
-                        <label for="O4radio2" class="manual-btn"></label>
-                        <label for="O4radio3" class="manual-btn"></label>
-                        <label for="O4radio4" class="manual-btn"></label>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="orderbtn">
-                <div class="orderbutton">
-                    <a
-                        href="https://wa.me/201142397025?text=Noura%20Brand%20Website%0AProducts%20Id%20%3A%20Ednaa%2FO4">للاستعلام
-                        والطلب</a>
-                </div>
-            </div>
-
-            <!-- O5 SLIDER -->
-            <div class="contain-slider">
-
-                <div class="slider">
-                    <div class="slides">
-
-                        <input type="radio" name="radio-btn" id="O5radio1">
-                        <input type="radio" name="radio-btn" id="O5radio2">
-                        <input type="radio" name="radio-btn" id="O5radio3">
-
-                        <div class="slide first">
-                            <img src="images/ednaa/O5/1st.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O5/2nd.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O5/3th.jpg" alt="">
-                        </div>
-
-                    </div>
-
-                    <div class="navigation-manual">
-                        <label for="O5radio1" class="manual-btn"></label>
-                        <label for="O5radio2" class="manual-btn"></label>
-                        <label for="O5radio3" class="manual-btn"></label>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="orderbtn">
-                <div class="orderbutton">
-                    <a
-                        href="https://wa.me/201142397025?text=Noura%20Brand%20Website%0AProducts%20Id%20%3A%20Ednaa%2FO5">للاستعلام
-                        والطلب</a>
-                </div>
-            </div>
-
-            <!-- O6 SLIDER -->
-            <div class="contain-slider">
-
-                <div class="slider">
-                    <div class="slides">
-
-                        <input type="radio" name="radio-btn" id="O6radio1">
-                        <input type="radio" name="radio-btn" id="O6radio2">
-                        <input type="radio" name="radio-btn" id="O6radio3">
-
-                        <div class="slide first">
-                            <img src="images/ednaa/O6/1st.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O6/2nd.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <img src="images/ednaa/O6/3th.jpg" alt="">
-                        </div>
-
-                    </div>
-
-                    <div class="navigation-manual">
-                        <label for="O6radio1" class="manual-btn"></label>
-                        <label for="O6radio2" class="manual-btn"></label>
-                        <label for="O6radio3" class="manual-btn"></label>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="orderbtn">
-                <div class="orderbutton">
-                    <a
-                        href="https://wa.me/201142397025?text=Noura%20Brand%20Website%0AProducts%20Id%20%3A%20Ednaa%2FO6">للاستعلام
-                        والطلب</a>
-                </div>
-            </div>
-
-            <script src=" JS/main.js"></script>
+            </script>
 
         </div>
 
     </div>
 
+    </div>
+
+    <div class="skills-list" id="category">
+        <h2 class="main-title">أقسام المنتجات</h2>
+        <div class="container">
+
+            <div class="box-section">
+                <a href="ednaa.html">
+                    <h2>ادنائات</h2>
+                    <img src="images/gallery/gallery2.png">
+                    <p></p>
+                </a>
+            </div>
+
+            <div class="box-section">
+                <a href="dress.html">
+                    <h2>فساتين</h2>
+                    <img src="images/gallery/gallery1.png">
+                    <p></p>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+
+    <div class="portofolio" id="portofolio">
+        <h2 class="main-title">معرض العمل</h2>
+        <div class="container">
+
+            <div class="slider-container">
+                <div id="slide-number" class="slide-number"></div>
+                <img decoding="async" src="images/gallery/gallery1.png" alt="" />
+                <img decoding="async" src="images/gallery/gallery2.png" alt="" />
+                <img decoding="async" src="images/gallery/gallery4.png" alt="" />
+                <img decoding="async" src="images/gallery/gallery5.png" alt="" />
+            </div>
+            <div class="slider-controls">
+                <span id="prev" class="prev">السابق</span>
+                <span id="indicators" class="indicators"></span>
+                <span id="next" class="next">التالي</span>
+            </div>
+            <script src="JS/main.js"></script>
+
+            <div class="catebtn">
+                <div class="categorybutton">
+                    <a href="#category">تصفح المزيد من الملابس</a>
+                </div>
+            </div>
+
+        </div>
     </div>
 
 
