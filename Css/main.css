@@ -743,6 +743,10 @@ ul {
 @media (max-width: 767px) {
     .fot .container hr {
         height: 0.5px;
+        align-items: center;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;       
     }
 }
 
