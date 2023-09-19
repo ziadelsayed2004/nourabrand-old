@@ -556,6 +556,10 @@
     margin-right: -40%;
 }
 
+#O13radio4:checked~.first {
+    margin-right: -60%;
+}
+
 /* O13 SLIDER */
 
 
@@ -570,6 +574,10 @@
 
 #O14radio3:checked~.first {
     margin-right: -40%;
+}
+
+#O14radio4:checked~.first {
+    margin-right: -60%;
 }
 
 /* O14 SLIDER */
@@ -588,7 +596,32 @@
     margin-right: -40%;
 }
 
+#O15radio4:checked~.first {
+    margin-right: -60%;
+}
+
 /* O15 SLIDER */
+
+
+/* O16 SLIDER */
+#O16radio1:checked~.first {
+    margin-right: 0;
+}
+
+#O16radio2:checked~.first {
+    margin-right: -20%;
+}
+
+#O16radio3:checked~.first {
+    margin-right: -40%;
+}
+
+#O16radio4:checked~.first {
+    margin-right: -60%;
+}
+
+/* O16 SLIDER */
+
 
 .navigation-auto {
     position: absolute;
@@ -867,10 +900,78 @@
     background: #c43af3;
 }
 
-
-
 #O13radio3:checked~.navigation-auto .auto-btn3 {
     background: #c43af3;
 }
 
+#O13radio4:checked~.navigation-auto .auto-btn4 {
+    background: #c43af3;
+}
+
 /* O13 SLIDER OUTO */
+
+
+/* O14 SLIDER OUTO */
+
+#O14radio1:checked~.navigation-auto .auto-btn1 {
+    background: #c43af3;
+}
+
+#O14radio2:checked~.navigation-auto .auto-btn2 {
+
+    background: #c43af3;
+}
+
+#O14radio3:checked~.navigation-auto .auto-btn3 {
+    background: #c43af3;
+}
+
+#O14radio4:checked~.navigation-auto .auto-btn4 {
+    background: #c43af3;
+}
+
+/* O14 SLIDER OUTO */
+
+
+/* O15 SLIDER OUTO */
+
+#O15radio1:checked~.navigation-auto .auto-btn1 {
+    background: #c43af3;
+}
+
+#O15radio2:checked~.navigation-auto .auto-btn2 {
+
+    background: #c43af3;
+}
+
+#O15radio3:checked~.navigation-auto .auto-btn3 {
+    background: #c43af3;
+}
+
+#O15radio4:checked~.navigation-auto .auto-btn4 {
+    background: #c43af3;
+}
+
+/* O15 SLIDER OUTO */
+
+
+/* O16 SLIDER OUTO */
+
+#O16radio1:checked~.navigation-auto .auto-btn1 {
+    background: #c43af3;
+}
+
+#O16radio2:checked~.navigation-auto .auto-btn2 {
+
+    background: #c43af3;
+}
+
+#O16radio3:checked~.navigation-auto .auto-btn3 {
+    background: #c43af3;
+}
+
+#O16radio4:checked~.navigation-auto .auto-btn4 {
+    background: #c43af3;
+}
+
+/* O16 SLIDER OUTO */
