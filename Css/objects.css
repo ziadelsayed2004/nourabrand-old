@@ -372,7 +372,6 @@
 
 
 /* O1 SLIDER */
-
 #radio1:checked~.first {
     margin-right: 0;
 }
@@ -388,8 +387,6 @@
 #radio4:checked~.first {
     margin-right: -60%;
 }
-
-
 /* O1 SLIDER */
 
 
@@ -405,7 +402,6 @@
 #O2radio3:checked~.first {
     margin-right: -40%;
 }
-
 /* O2 SLIDER */
 
 
@@ -429,7 +425,6 @@
 #O3radio5:checked~.first {
     margin-right: -80%;
 }
-
 /* O3 SLIDER */
 
 
@@ -449,7 +444,6 @@
 #O4radio4:checked~.first {
     margin-right: -60%;
 }
-
 /* O4 SLIDER */
 
 
@@ -465,7 +459,6 @@
 #O5radio3:checked~.first {
     margin-right: -40%;
 }
-
 /* O5 SLIDER */
 
 
@@ -500,7 +493,6 @@
 #O7radio3:checked~.first {
     margin-right: -40%;
 }
-
 /* O7 SLIDER */
 
 
@@ -520,7 +512,6 @@
 #O8radio4:checked~.first {
     margin-right: -60%;
 }
-
 /* O8 SLIDER */
 
 
@@ -536,7 +527,6 @@
 #O9radio3:checked~.first {
     margin-right: -40%;
 }
-
 /* O9 SLIDER */
 
 
@@ -552,7 +542,6 @@
 #O10radio3:checked~.first {
     margin-right: -40%;
 }
-
 /* O10 SLIDER */
 
 /* O11 SLIDER */
@@ -571,7 +560,6 @@
 #O11radio4:checked~.first {
     margin-right: -60%;
 }
-
 /* O11 SLIDER */
 
 
@@ -587,7 +575,6 @@
 #O12radio3:checked~.first {
     margin-right: -40%;
 }
-
 /* O12 SLIDER */
 
 
@@ -607,7 +594,6 @@
 #O13radio4:checked~.first {
     margin-right: -60%;
 }
-
 /* O13 SLIDER */
 
 
@@ -627,7 +613,6 @@
 #O14radio4:checked~.first {
     margin-right: -60%;
 }
-
 /* O14 SLIDER */
 
 
@@ -648,7 +633,29 @@
     margin-right: -60%;
 }
 
+#O15radio5:checked~.first {
+    margin-right: -80%;
+}
 /* O15 SLIDER */
+
+
+/* O16 SLIDER */
+#O16radio1:checked~.first {
+    margin-right: 0;
+}
+
+#O16radio2:checked~.first {
+    margin-right: -20%;
+}
+
+#O16radio3:checked~.first {
+    margin-right: -40%;
+}
+
+#O16radio4:checked~.first {
+    margin-right: -60%;
+}
+/* O16 SLIDER */
 
 
 .navigation-auto {
@@ -961,23 +968,23 @@
 /* O14 SLIDER OUTO */
 
 
-/* O15 SLIDER OUTO */
+/* O16 SLIDER OUTO */
 
-#O15radio1:checked~.navigation-auto .auto-btn1 {
+#O16radio1:checked~.navigation-auto .auto-btn1 {
     background: #c43af3;
 }
 
-#O15radio2:checked~.navigation-auto .auto-btn2 {
+#O16radio2:checked~.navigation-auto .auto-btn2 {
 
     background: #c43af3;
 }
 
-#O15radio3:checked~.navigation-auto .auto-btn3 {
+#O16radio3:checked~.navigation-auto .auto-btn3 {
     background: #c43af3;
 }
 
-#O15radio4:checked~.navigation-auto .auto-btn4 {
+#O16radio4:checked~.navigation-auto .auto-btn4 {
     background: #c43af3;
 }
 
-/* O15 SLIDER OUTO */
+/* O16 SLIDER OUTO */
