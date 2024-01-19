@@ -259,7 +259,6 @@
     position: absolute;
     width: 40%;
     margin-top: -3%;
-
 }
 
 @media (max-width: 767px) {
@@ -337,8 +336,11 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    width: 40%;
+    width: 39.2%;
     margin-top: -3%;
+    padding: 0.35vh;
+    background-color: #B890B8;
+    opacity: 0.6;
 
 }
 
@@ -346,8 +348,11 @@
 
     .navigation-manual {
         position: absolute;
-        margin-right: 17%;
         margin-top: -10%;
+        padding: 0.35vh;
+        background-color: #B890B8;
+        opacity: 0.6;
+        width: 75%;
     }
 }
 
