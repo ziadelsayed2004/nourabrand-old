@@ -599,6 +599,7 @@ ul {
 
 .slider-container {
     margin: 10px auto;
+    margin-top: -250px;
     width: 800px;
     height: 450px;
     position: relative;
@@ -612,6 +613,7 @@ ul {
     .slider-container {
         width: 70%;
         height: 225px;
+        margin-top: auto;
         display: inline-block;
     }
 }
@@ -660,12 +662,14 @@ ul {
     margin: auto;
     overflow: hidden;
     margin-bottom: 50px;
+    margin-top: 200px;
 }
 
 @media (max-width: 767px) {
 
     .slider-controls {
         width: 70%;
+        margin-top: 100px;
     }
 }
 
